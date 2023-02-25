@@ -15,6 +15,6 @@ cd api_yamdb
 
 ###
 Как зарегистрировать пользователя:  
-1.Сделайте POST запрос, укаказав в теле "username" и "email" на эндпоинт "api/v1/auth/signup/"  
+1.Сделайте POST запрос, указав в теле "username" и "email" на эндпоинт "api/v1/auth/signup/"  
 2.YaMDb отправит проверочный код на указанный email  
 3.Сделайте POST запрос указав "email" и "confirmation_code" в теле запроса на эндпоинт "api/v1/auth/token/"/,в ответе вы получите JWT-токен  
